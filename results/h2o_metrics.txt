@@ -1,0 +1,30 @@
+H2O TEST METRICS
+========================================
+Model ID: creditcard_drf_model
+
+AUC:                 0.931353
+PR AUC:              0.813577
+
+BEST TEST ACCURACY
+----------------------------------------
+Threshold:           0.000728
+Value:               0.999645
+
+BEST TEST F1
+----------------------------------------
+Threshold:           0.000728
+Value:               0.880000
+
+BEST TEST PRECISION
+----------------------------------------
+Threshold:           0.006912
+Value:               0.977778
+
+BEST TEST RECALL
+----------------------------------------
+Threshold:           0.000000
+Value:               1.000000
+
+VALIDATION-SELECTED THRESHOLD FOR SPARK TUNED OUTPUT
+----------------------------------------
+Best validation F1 threshold: 0.000963

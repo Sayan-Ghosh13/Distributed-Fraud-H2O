@@ -1,0 +1,33 @@
+SPARK-SIDE TEST METRICS
+========================================
+Rows evaluated: 42276
+
+DEFAULT H2O PREDICTION COLUMN (predict)
+----------------------------------------
+TP: 53
+TN: 42206
+FP: 4
+FN: 13
+
+Accuracy:           0.999598
+Precision:          0.929825
+Recall:             0.803030
+Specificity:        0.999905
+F1 Score:           0.861789
+Balanced Accuracy:  0.901468
+
+TUNED PREDICTION COLUMN (predict_tuned)
+----------------------------------------
+Threshold used:     0.000963
+
+TP: 53
+TN: 42206
+FP: 4
+FN: 13
+
+Accuracy:           0.999598
+Precision:          0.929825
+Recall:             0.803030
+Specificity:        0.999905
+F1 Score:           0.861789
+Balanced Accuracy:  0.901468

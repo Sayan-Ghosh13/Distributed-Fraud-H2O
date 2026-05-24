@@ -1,0 +1,4 @@
+pyspark==3.5.0
+h2o_pysparkling_3.5
+pandas
+numpy

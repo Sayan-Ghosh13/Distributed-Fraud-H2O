@@ -1,0 +1,44 @@
+COMPARISON REPORT
+========================================
+Goal:
+Improve fraud detection on an imbalanced dataset by using class balancing
+and threshold tuning instead of trusting only the default prediction threshold.
+
+DEFAULT VS TUNED
+----------------------------------------
+Default prediction column:       predict
+Tuned prediction column:         predict_tuned
+Validation-selected threshold:   0.000963
+
+DEFAULT METRICS
+----------------------------------------
+Accuracy:           0.999598
+Precision:          0.929825
+Recall:             0.803030
+F1 Score:           0.861789
+Balanced Accuracy:  0.901468
+
+TUNED METRICS
+----------------------------------------
+Accuracy:           0.999598
+Precision:          0.929825
+Recall:             0.803030
+F1 Score:           0.861789
+Balanced Accuracy:  0.901468
+
+WHICH IS BETTER?
+----------------------------------------
+Better F1:                  predict_tuned
+Better Recall:              predict_tuned
+Better Balanced Accuracy:   predict_tuned
+
+CONCLUSION
+----------------------------------------
+1. The model was trained in distributed mode using Spark + H2O.
+2. The fraud dataset is highly imbalanced, so threshold tuning matters.
+3. The tuned output uses the validation-best F1 threshold.
+4. For reporting fraud detection quality, focus especially on:
+   - Recall
+   - F1 Score
+   - Balanced Accuracy
+   not only plain Accuracy.

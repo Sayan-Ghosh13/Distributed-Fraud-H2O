@@ -1,0 +1,4 @@
+cd ~/Downloads
+
+wget https://h2o-release.s3.amazonaws.com/sparkling-water/spark-3.5/3.46.0.6-1-3.5/sparkling-water-3.46.0.6-1-3.5.zip
+unzip sparkling-water-3.46.0.6-1-3.5.zip
